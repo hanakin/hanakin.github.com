@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Jekyll Bootstrap</title>
- <link href="http://username.github.com/" rel="self"/>
- <link href="http://username.github.com"/>
- <updated>2013-04-14T03:08:43+09:00</updated>
- <id>http://username.github.com</id>
+ <title>midaym</title>
+ <link href="http://hanakin.github.io/" rel="self"/>
+ <link href="http://hanakin.github.io"/>
+ <updated>2013-04-14T23:04:02+09:00</updated>
+ <id>http://hanakin.github.io</id>
  <author>
-   <name>Name Lastname</name>
-   <email>blah@email.test</email>
+   <name>Michael Miday</name>
+   <email>midaym@gmail.com</email>
  </author>
 
  
  <entry>
+   <title>New Blog!</title>
+   <link href="http://hanakin.github.io/News/2013/04/14/new-post"/>
+   <updated>2013-04-14T00:00:00+09:00</updated>
+   <id>http://hanakin.github.io/News/2013/04/14/new-post</id>
+   <content type="html">&lt;h1 id='the_state_of_midaym'&gt;The state of midaym&lt;/h1&gt;
+
+&lt;p&gt;Ok so my site has gotten really stale and working with wordpress was just way to verbose. For sometime now I wanted to put something together to provide a simple way for me to showcase my work and share my thoughts.&lt;/p&gt;
+
+&lt;p&gt;Until today I tried several different themes for a new site but in the end for right now all I really need is something to share my thoughts and ideas.&lt;/p&gt;
+
+&lt;h2 id='jekyll_to_the_rescue'&gt;Jekyll to the rescue.&lt;/h2&gt;
+
+&lt;p&gt;My blog is now completely textile markdown based housed on git-pages. Its assembled through ruby gem called &lt;strong&gt;Jekyll&lt;/strong&gt;. This keeps things extremely simple I have a few static html template files to maintain the look and presentation of the blog. As for the posts they are individual markdown files which makes it extremely easy to write on the fly while Im out and about then upload when I return home.&lt;/p&gt;
+
+&lt;h2 id='initial_stages'&gt;Initial stages&lt;/h2&gt;
+
+&lt;p&gt;obviously this is still a WIP and eventually I will need to point my DNS here but in time I am really excited to see just what this can become.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://username.github.com/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://hanakin.github.io/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00+09:00</updated>
-   <id>http://username.github.com/lessons/2011/12/29/jekyll-introduction</id>
+   <id>http://hanakin.github.io/lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 
 &lt;h2 id='overview'&gt;Overview&lt;/h2&gt;

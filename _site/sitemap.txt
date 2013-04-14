@@ -1,11 +1,13 @@
 
-http://username.github.com/about.html
-http://username.github.com/archive.html
-http://username.github.com/atom.xml
-http://username.github.com/categories.html
-http://username.github.com/index.html
-http://username.github.com/rss.xml
-http://username.github.com/sitemap.txt
-http://username.github.com/tags.html
+http://hanakin.github.io/about.html
+http://hanakin.github.io/archive.html
+http://hanakin.github.io/atom.xml
+http://hanakin.github.io/categories.html
+http://hanakin.github.io/index.html
+http://hanakin.github.io/pages.html
+http://hanakin.github.io/rss.xml
+http://hanakin.github.io/sitemap.txt
+http://hanakin.github.io/tags.html
 
-http://username.github.com/lessons/2011/12/29/jekyll-introduction
+http://hanakin.github.io/News/2013/04/14/new-post
+http://hanakin.github.io/lessons/2011/12/29/jekyll-introduction
