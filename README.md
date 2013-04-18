@@ -1,46 +1,60 @@
-# Jekyll-Bootstrap
+Dropplets
+=========
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+> Version 1.0
 
-## Usage
+A minimalist markdown blogging platform that just works.
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+## What's Markdown?
+Markdown is a text formatting syntax inspired on plain text email. It is extremely simple, memorizable and visually lightweight on artifacts so as not to hinder reading.
 
-## Version
+> The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+If you're looking for an awesome Markdown editor, Byword (http://bywordapp.com/) is a great solution for the Mac. They also have an awesome syntax guide which can be found Here (http://bywordapp.com/markdown/syntax.html).
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+## Installation
+Installing Dropplets is pretty easy. Just follow the few steps below.
 
-## Contributing 
+1. Download the latest version here on GitHub.
+2. Extract the zip file.
+3. Drag and drop everything to your server wherever you want it to be installed. 
+4. Pull up your target site in a web browser and follow the prompts.
 
-This repository tracks 2 projects:
+**IMPORTANT NOTE:** If you're not brought to the installation screen after this process, you probably didn't get the **.htaccess** file in the root Dropplets directory. These files are usually hidden by default, so you might have to show hidden files to see it.
 
-- **Jekyll-Bootstrap Framework.**  
-  The framework for which users should clone and build their blog on top of is available in the master branch.
-  
-  To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-  This is very important as it allows me to accept your pull request without having to publish a public version release.
-  
-  Small, atomic Features, bugs, etc.   
-  Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.   
-  Please rebase as often as possible when working.   
-  Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-  
-  For Big Features or major API extensions/edits:   
-  This is the one case where I'll accept pull-requests based off the master branch.
-  This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-  Translation : it might take a bit longer so please be patient! (but sincerely thank you).
- 
-- **Jekyll-Bootstrap Documentation Website.**    
-  The documentation website at <http://jekyllbootstrap.com> is maintained in the gh-pages branch.
-  Please fork and contribute documentation additions to this branch only.
+## Post Formatting
+Posts must currently be composed in markdown format, saved as a "*.md". You may include a matching featured image (optional). Here's an example of good post file naming:
 
-The master and gh-pages branch do not share the same ancestry. Please treat them as completely separate git repositories!
+- your-post-title.md
+- your-post-title.jpg
 
+Post file names are used to structure permalinks. So, a post file saved as "your-post-title.txt" will result in "http://yoursite.com/your-post-title".
+
+Your posts (markdown files) **MUST** be formatted as follows:
+
+    # Your Post Title
+    - Post Author
+    - Twitter Handle (e.g. "dropplets")
+    - 2020/02/02
+    - Post Category
+    - Post Status (e.g. "published" or "draft")
+
+    Your post text starts here.
+    
+## About the Dashboard
+The Dashboard can be used to publish new posts, edit existing posts, change your blog settings or change your template. To access the Dropplets dashboard, load "http://yoursite.com/dashboard/", obviously changing "yoursite.com" to your websites URL.
+
+## Publishing Posts
+Publishing posts is really easy to do within the Dashboard:
+
+1. Login to your Dropplets Dashboard.
+2. Drag and drop your post file into the big "drop" zone within the center of your dashboard.
 
 ## License
+Copyright (c) 2013 Circa75 Media, LLC
 
-[MIT](http://opensource.org/licenses/MIT)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

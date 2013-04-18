@@ -1,0 +1,194 @@
+
+/*
+	===============================================================================
+	UI Elements
+	===============================================================================
+*/
+
+/* - Icons
+----------------------------------------------*/
+@font-face {
+	font-family: '@{iconFont}';
+	src:url('..font/glyphiconDev.eot');
+	src:url('../fonts/glyphiconDev.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/glyphiconDev.svg#icomoon') format('svg'),
+		url('../fonts/glyphiconDev.woff.woff') format('woff'),
+		url('../fonts/glyphiconDev.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	display: inline-block;
+	.ie7-restore-right-whitespace();
+	font-family: '@{iconFont}';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+    padding-right: 4px;
+}
+
+.icon-y:before { content: "\79"; }
+.icon-m:before { content: "\6d"; }
+.icon-i:before { content: "\69"; }
+.icon-d:before { content: "\64"; }
+.icon-a:before { content: "\71"; }
+.icon-midaym:before { content: "\77"; }
+.icon-tag:before { content: "\e006"; }
+.icon-tag-2:before { content: "\65"; }
+.icon-home:before { content: "\72"; }
+.icon-file-alt:before { content: "\74"; }
+.icon-calendar:before { content: "\75"; }
+.icon-pause:before { content: "\f04c"; }
+.icon-stop:before { content: "\f04d"; }
+.icon-ban-circle:before { content: "\f05e"; }
+.icon-arrow-left:before { content: "\f060"; }
+.icon-warning-sign:before { content: "\f071"; }
+.icon-plane:before { content: "\f072"; }
+.icon-th-list:before { content: "\f00b"; }
+
+
+/* - Button
+----------------------------------------------*/
+// Links rendered as pills
+button[class^="pill-"],
+input[type="submit"][class^="pill-"],
+input[type="reset"][class^="pill-"],
+input[type="button"][class^="pill-"],
+a[class^="pill-"], 
+[class^="pill-"] > li > a {
+	font-weight: bold;
+    padding: 8px 15px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	.border-radius(5px);
+}
+
+button[class^="pill-"],
+input[type="submit"][class^="pill-"],
+input[type="reset"][class^="pill-"],
+input[type="button"][class^="pill-"],
+a[class^="pill-"] { 
+	height: @baseLineHeight;
+	.inline();
+	margin: 2px 5px;
+}
+
+button[class^="pill-"],
+input[type="submit"][class^="pill-"],
+input[type="reset"][class^="pill-"],
+input[type="button"][class^="pill-"] {
+	border: none;
+	height: auto;
+	margin: 0;
+	text-shadow: none;
+	background-image: none; // Standard, IE10
+    background-repeat: none;
+    .transition(none);
+}
+
+button.pill-dark,
+input[type="submit"].pill-dark,
+input[type="reset"].pill-dark,
+input[type="button"].pill-dark,
+a.pill-dark,
+.pill-dark > li > a {
+	background-color: @linkColorHover;
+ 	color: @white;
+}
+
+// Active state
+button.pill-dark:hover,
+input[type="submit"].pill-dark:hover,
+input[type="reset"].pill-dark:hover,
+input[type="button"].pill-dark:hover,
+a.pill-dark.active,
+.pill-dark > li.active > a,
+a.pill-dark:hover,
+.pill-dark > li > a:hover {
+	color: @white;
+ 	background-color: @linkColor;
+}
+
+button.pill-light,
+input[type="submit"].pill-light,
+input[type="reset"].pill-light,
+input[type="button"].pill-light,
+a.pill-light,
+.pill-light > li > a {
+	background-color: @white;
+ 	color: @black;
+}
+
+// Active state
+button.pill-light:hover,
+input[type="submit"].pill-light:hover,
+input[type="reset"].pill-light:hover,
+input[type="button"].pill-light:hover,
+a.pill-light.active,
+.pill-light > li.active > a,
+a.pill-light:hover,
+.pill-light > li > a:hover {
+	color: @white;
+ 	background-color: @linkColorHover;
+}
+
+
+/* - Drop Down
+----------------------------------------------*/
+.drop {
+	> a {
+		.hide-text();
+	}
+	&:hover > ul,
+	&:focus > ul {
+		.block();
+		visibility: visible;
+		z-index: 99;
+		top: 35px;
+		right: @spacer;
+	}
+	> ul {
+		.no-bullets();
+		.border-radius(5px);
+		.bg(@black);
+		padding: 8px 0;
+		float: none;
+		display: none;
+		visibility: hidden;
+		position: absolute;
+		top: -9999px;
+		margin: 0;
+		//width: 111px;
+		color: @gray;
+		> li {
+			.block();
+			//.bg(@black);
+			//&:first-child { 
+			//	.border-top-radius(5px);
+			//	padding-top: 5px; 
+			//}
+			//&:last-child { 
+			//	.border-bottom-radius(5px);
+			//	padding-bottom: 5px; 
+			//}
+			float: none;
+			&:hover,
+			&:focus {
+				.bg(@gray);
+				> a { color: @white; }
+			}
+			.block();
+			padding: 0 15px;
+			color: @gray;
+			a {
+				.block();
+				color: @gray;
+				width: 100%;
+			}
+		}
+	}
+}
