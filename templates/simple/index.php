@@ -20,6 +20,19 @@
     </head>
     
     <body>
+    	<div class="row">
+	        <div class="one-quarter">
+	            <a class="branding" href="#"><img src="../style/images/branding.png" width="48px" height="48px">midaym</a>
+	        </div>
+            <nav class="three-quarter pull-right">
+                <ul>
+                	<li><a href="index.php"><i class="icon-home"></i> Home</a></li>
+                    <li><a href="index.php"><i class="icon-about"></i> About</a></li>
+                    <li><a href="index.php"><i class="icon-contact"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <?php echo $content ?>
         
         <?php echo stripslashes($tracking_code) ?>

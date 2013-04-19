@@ -30,10 +30,10 @@ if($_POST['submit'] == "submit")
     $config[] = "\$tracking_code = '$tracking_code';";
 
     // Put Stuff
-    file_put_contents("../../dropplets/config/config-settings.php", implode("\n", $config));
+    file_put_contents("../config/config-settings.php", implode("\n", $config));
 
     // Redirect
-    header('Location: ' . '../../');
+    header('Location: ' . '../');
 }
 
 ?>

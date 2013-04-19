@@ -32,13 +32,13 @@ $error_text = 'Really sorry, but what you&#8217;re looking for isn&#8217;t here.
 /* Post Configuration
 /*-----------------------------------------------------------------------------------*/
 
-$post_directory = '../posts/';
+$post_directory = './posts/';
 
 if (glob($post_directory . '*.md') != false)
 {
-    $posts_dir = '../posts/';
+    $posts_dir = './posts/';
 } else {
-    $posts_dir = '../dropplets/welcome/';
+    $posts_dir = './welcome/';
 }
 
 define('POSTS_DIR', $posts_dir);
@@ -48,7 +48,7 @@ define('FILE_EXT', '.md');
 /* Template Files
 /*-----------------------------------------------------------------------------------*/
 
-$template_dir = '../templates/' . $template . '/';
+$template_dir = './templates/' . $template . '/';
 $template_dir_url = $blog_url . '/templates/' . $template . '/';
 
 // define the default locations of the template files

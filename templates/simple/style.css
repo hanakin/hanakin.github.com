@@ -22,6 +22,7 @@ body {
 	line-height: 27px;
 	color: #404040;
 	text-rendering: optimizeLegibility;
+	padding-top: 40px;
 }
 
 /* Typography
@@ -92,6 +93,57 @@ code, pre {
     font-size: 18px;
     letter-spacing: 0.1em;
     margin: 0 0.1em;
+}
+
+h1 small {
+	color: rgba(0,0,0,.20);
+	font-size: 70%;
+	display: block;
+	margin-top: -14px;
+}
+
+.branding { 
+	font-size: 48px;
+	text-transform: uppercase; 
+	float: right;
+	margin-top: 20px;
+	display: block;
+	margin-right: -80px;
+}
+
+.branding > img {
+	margin-left: -58px;
+	float: left;
+	margin-top: -10px;
+}
+
+nav {
+	text-align: right;
+	margin-right: 220px;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	position: relative;
+	padding-top: 18px;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+	padding: 0 15px;
+}
+
+nav a {
+	display: block;
+	color: #999;
+	text-decoration: none;
+	font-style: bold;
+}
+
+nav a:hover {
+	color: #21b5e4;
 }
 
 /* Posts

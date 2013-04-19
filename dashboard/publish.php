@@ -35,6 +35,6 @@ function get_extension($file_name){
 }
 
 // Redirect
-header('Location: ' . '../../');
+header('Location: ' . '../');
 
 ?>

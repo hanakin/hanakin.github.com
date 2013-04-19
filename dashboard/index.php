@@ -1,7 +1,7 @@
 <?php session_start();
 
-include('../dropplets/config/config-settings.php');
-include('../dropplets/config/config-template.php');
+include('../config/config-settings.php');
+include('../config/config-template.php');
 
 /*-----------------------------------------------------------------------------------*/
 /* User Machine
@@ -66,7 +66,7 @@ function get_templates() {
         <li>
             <img src="<?php echo $template_screenshot; ?>">
             
-            <form method="POST" action="../dropplets/config/submit-template.php">
+            <form method="POST" action="../config/submit-template.php">
                 <div class="hidden">
                 <input type="text" name="template" id="template" required readonly value="<?php echo $template_dir_name ?>">
                 </div>
@@ -91,12 +91,12 @@ if (!isset($_SESSION['user'])) {
     <head>
         <meta charset="utf-8" />
         <title>Login</title>
-        <link rel="stylesheet" href="../dropplets/style/style.css" />
-        <link rel="shortcut icon" href="../dropplets/style/images/favicon.png">
+        <link rel="stylesheet" href="../style/style.css" />
+        <link rel="shortcut icon" href="../style/images/favicon.png">
     </head>
     
     <body>
-        <img src="../dropplets/style/images/logo.png" alt="Dropplets" />
+        <img src="../style/images/logo.png" alt="Dropplets" />
         
         <h1>Login</h1>
         <p>Enter your password below to publish new posts, update existing posts, change your blog settings or select a new template for your blog.</p>
@@ -129,8 +129,8 @@ if (!isset($_SESSION['user'])) {
     <head>
         <meta charset="utf-8" />
         <title>Dashboard</title>
-        <link rel="stylesheet" href="../dropplets/style/style.css" />
-        <link rel="shortcut icon" href="../dropplets/style/images/favicon.png">
+        <link rel="stylesheet" href="../style/style.css" />
+        <link rel="shortcut icon" href="../style/images/favicon.png">
     </head>
     
     <body class="dashboard">  
@@ -151,7 +151,7 @@ if (!isset($_SESSION['user'])) {
 		<div id="settings" class="panel">
 		    <a class="settings-close" href="#settings"></a>
 		    
-		    <form method="POST" action="../dropplets/config/submit-settings.php">
+		    <form method="POST" action="../config/submit-settings.php">
 		        <fieldset>
 		            <div class="input">
 		                <label>Blog Email</label>
