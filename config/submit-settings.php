@@ -13,7 +13,11 @@ if($_POST['submit'] == "submit")
     $blog_title = htmlspecialchars($_POST['blog_title']);
     $meta_description = htmlspecialchars($_POST['meta_description']);
     $intro_title = htmlspecialchars($_POST['intro_title']);
-    $intro_text = htmlspecialchars($_POST['intro_text']);
+    $intro_tag = $_POST['intro_tag'];
+    $about_title = htmlspecialchars($_POST['about_title']);
+    $about_tag = $_POST['about_tag'];
+    $contact_title = htmlspecialchars($_POST['contact_title']);
+    $contact_tag = $_POST['contact_tag'];
     $password = $_POST['password'];
     $tracking_code = addslashes($_POST['tracking_code']);
 
@@ -25,7 +29,11 @@ if($_POST['submit'] == "submit")
     $config[] = "\$blog_title = \"$blog_title\";";
     $config[] = "\$meta_description = \"$meta_description\";";
     $config[] = "\$intro_title = \"$intro_title\";";
-    $config[] = "\$intro_text = \"$intro_text\";";
+    $config[] = "\$intro_tag = \"$intro_tag\";";
+    $config[] = "\$about_title = \"$about_title\";";
+    $config[] = "\$about_tag = \"$about_tag\";";
+    $config[] = "\$contact_title = \"$contact_title\";";
+    $config[] = "\$contact_tag = \"$contact_tag\";";
     $config[] = "\$password = '$password';";
     $config[] = "\$tracking_code = '$tracking_code';";
 

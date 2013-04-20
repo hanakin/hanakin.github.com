@@ -55,8 +55,13 @@ $template_dir_url = $blog_url . '/templates/' . $template . '/';
 $index_file = $template_dir . 'index.php';
 $intro_file = $template_dir . 'intro.php';
 $post_file = $template_dir . 'post.php';
-$posts_file = $template_dir . 'posts.php';
+$odd_posts_file = $template_dir . 'odd_posts.php';
+$even_posts_file = $template_dir . 'even_posts.php';
+$about_file = $template_dir . 'about.php';
+$contact_file = $template_dir . 'contact.php';
+$footer_file = $template_dir . 'footer.php';
 $not_found_file = $template_dir . '404.php';
+$about_post = $template_dir . 'about.md';
 
 /*-----------------------------------------------------------------------------------*/
 /* Let's Get Started
@@ -72,7 +77,7 @@ include_once './plugins/markdown.php';
 // Reading file names.
 if (empty($_GET['filename'])) {
     $filename = NULL;
-} else if($_GET['filename'] == 'rss' || $_GET['filename'] == 'atom') {
+} else if($_GET['filename'] == 'rss' || $_GET['filename'] == 'atom' || $_GET['filename'] == 'about' || $_GET['filename'] == 'contact') {
     $filename = $_GET['filename'];
 } else {
     $filename = POSTS_DIR . $_GET['filename'] . FILE_EXT;
@@ -87,10 +92,14 @@ if ($filename==NULL) {
     if($posts) {
         ob_start();
         $content = '';
+        $stripe = 'odd';
         foreach($posts as $post) {
         
             // The site title
-            $site_title = $blog_title;
+            $page_title = $intro_title;
+
+            // The site title
+            $page_tag = $intro_tag;
             
             // The post title.
             $post_title = $post['title'];
@@ -109,8 +118,11 @@ if ($filename==NULL) {
             
             // The post category.
             $post_category = $post['category'];
+
+            // The post class.
+            $post_class = $post['class'];
             
-            // The post category.
+            // The post status.
             $post_status = $post['post_status'];
             
             // The post intro.
@@ -125,14 +137,21 @@ if ($filename==NULL) {
             if (file_exists($image)) {
                 $post_image = $blog_url.'/'.str_replace(array(FILE_EXT, '../'), '', POSTS_DIR.$post['fname']).'.jpg';
             } else {
-                $post_image = 'https://api.twitter.com/1/users/profile_image?screen_name='.$post_author_twitter.'&size=bigger';
+            	$stripe = 'odd';
             }
             
             // Grab the site intro template file.
             include_once $intro_file;
             
-            // Grab the milti-post template file.
-            include $posts_file;
+            if ($stripe == 'odd') {
+            	// Grab the milti-post template file.
+            	include $odd_posts_file;
+            	$stripe = 'even';
+            } else {
+            	// Grab the milti-post template file.
+            	include $even_posts_file;
+            	$stripe = 'odd';
+            }
         }
         echo $content;
         $content = ob_get_contents();
@@ -142,7 +161,7 @@ if ($filename==NULL) {
         ob_start();
         
         // The site title
-        $site_title = $error_title;
+        $page_title = $error_title;
         
         // Get the 404 page template.
         $post = Markdown(file_get_contents($not_found_file));
@@ -154,7 +173,10 @@ if ($filename==NULL) {
     
     // Get the index template file.
     include_once $index_file;
-} 
+
+    // Grab the footer template file.
+    include $footer_file;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /* RSS Feed
@@ -204,7 +226,45 @@ else if ($filename == 'rss' || $filename == 'atom') {
         }
     }
     $feed->genarateFeed();
-} 
+} elseif($filename=='about' || $filename=='contact') {
+
+    ob_start();
+    $content = '';
+
+    if ($filename=='about') {
+	    // The page title
+	    $page_title = $about_title;
+	    // the page tag
+	    $page_tag = $about_tag;
+	    // Grab the site intro template file.
+	    // Get the 404 page template.
+	    $post = Markdown(file_get_contents($about_post));
+
+	    include_once $intro_file;
+	    include $about_file;
+	} elseif($filename=='contact') {
+		// The page title
+	    $page_title = $contact_title;
+	    // the page tag
+	    $page_tag = $contact_tag;
+	    // Grab the site intro template file.
+	    include_once $intro_file;
+	        
+	    // Grab the milti-post template file.
+	    include $contact_file;
+	}
+
+    echo $content;
+    $content = ob_get_contents();
+
+    ob_end_clean();
+
+    // Get the index template file.
+    include_once $index_file;
+
+    // Grab the footer template file.
+    include $footer_file;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /* Single Post Pages
@@ -223,7 +283,7 @@ else {
     if (!file_exists($filename)) {
     
         // The site title
-        $site_title = $error_title;
+        $page_title = $error_title;
     
         // Get the 404 page template.
         include $not_found_file;
@@ -232,7 +292,7 @@ else {
     } else if (file_exists($cachefile)) {
     
         // The site title
-        $site_title = str_replace('# ', '', $fcontents[0]);
+        $page_title = str_replace('# ', '', $fcontents[0]);
         
         // Get the cached post.
         include $cachefile;
@@ -241,25 +301,23 @@ else {
     } else {
     
         // The site title
-        $site_title = str_replace('# ', '', $fcontents[0]);
-        
-        // The post title.
-        $post_title = str_replace('# ', '', $fcontents[0]);
+        $page_title = str_replace('# ', '', array_shift($fcontents));
         
         // The post author.
-        $post_author = str_replace('-', '', $fcontents[1]);
+        $post_author = str_replace('-', '', array_shift($fcontents));
         
         // The post author Twitter account.
-        $post_author_twitter = str_replace('- ', '', $fcontents[2]);
+        $post_author_twitter = str_replace('- ', '', array_shift($fcontents));
         
         // The published date.
-        $published_iso_date = str_replace('-', '', $fcontents[3]);
-                
-        // The published date.
+        $published_iso_date = str_replace('-', '', array_shift($fcontents));
         $published_date = date_format(date_create($published_iso_date), $date_format);
         
         // The post category.
-        $post_category = str_replace('-', '', $fcontents[4]);
+        $post_category = str_replace('-', '', array_shift($fcontents));
+
+        // The post class.
+        $post_class = str_replace('-', '', array_shift($fcontents));
         
         // The post link.
         $post_link = $blog_url.'/'.str_replace(array(FILE_EXT, POSTS_DIR), '', $filename);
@@ -269,10 +327,14 @@ else {
         
         if (file_exists($image)) {
             $post_image = $blog_url.'/'.str_replace(array(FILE_EXT, '../'), '', $filename).'.jpg';
-        } else {
-            $post_image = 'https://api.twitter.com/1/users/profile_image?screen_name='.$post_author_twitter.'&size=bigger';
         }
-        
+
+        //remove publish flag
+        array_shift($fcontents);
+
+        // Get the index template file.
+    	include_once $intro_file;
+        // print_r($fcontents);
         // The post.
         $post = Markdown(join('', $fcontents));
         
@@ -290,9 +352,12 @@ else {
     }
     $content = ob_get_contents();
     ob_end_clean();
-    
+
     // Get the index template file.
     include_once $index_file;
+
+    // Get the index template file.
+    include_once $footer_file;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -324,7 +389,8 @@ function get_all_posts() {
                 $fcontents = file(POSTS_DIR.$entry);
                 
                 // The post title.
-                $title = Markdown($fcontents[0]);
+
+                $title = str_replace('#', '', $fcontents[0]);
                 
                 // The post author.
                 $post_author = str_replace('-', '', $fcontents[1]);
@@ -337,19 +403,23 @@ function get_all_posts() {
                 
                 // The post category.
                 $category = str_replace('-', '', $fcontents[4]);
+
+                // The post class.
+                $class = str_replace('-', '', $fcontents[5]);
                 
                 // The post status.
-                $post_status = str_replace('- ', '', $fcontents[5]);
+                $post_status = str_replace('- ', '', $fcontents[6]);
                 
                 // The post intro.
-                $intro = Markdown($fcontents[7]);
+                $intro = Markdown($fcontents[8]);
                 
-                $files[] = array('fname' => $entry, 'title' => $title, 'post_author' => $post_author, 'post_author_twitter' => $post_author_twitter, 'time' => $time, 'category' => $category, 'post_status' => $post_status, 'intro' => $intro);
+                $files[] = array('fname' => $entry, 'title' => $title, 'post_author' => $post_author, 'post_author_twitter' => $post_author_twitter, 'time' => $time, 'category' => $category, 'class' => $class,'post_status' => $post_status, 'intro' => $intro);
                 $filetimes[] = $time;
                 $titles[] = $title;
                 $post_authors[] = $post_author;
                 $post_authors_twitter[] = $post_author_twitter;
                 $categories[] = $category;
+                $classes[] = $class;
                 $post_statuses[] = $post_status;
                 $introductions[] = $intro;
             }

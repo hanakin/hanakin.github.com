@@ -3,6 +3,7 @@
 - midaym
 - 2013/19/04
 - Tutorial
+- black
 - published
 
 The web is changing, more and more we need to provide content that spans different devices at different resolutions. In this feature I will introduce you first hand to the world of responsive design & development from mobile first. Follow along as I redesign a popular web application theme to introduce it to different mediums. Learn the concept of a workflow and start implementing one for yourself
