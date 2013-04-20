@@ -2,21 +2,10 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8283",
   "files" : {
-    "\/dropplets\/style\/images\/branding.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/dropplets\/style\/images\/branding.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/dropplets\/style\/images\/branding.png",
-      "initialSize" : 3787,
-      "fileType" : 8192
-    },
     "\/archive\/_site\/assets\/themes\/midaym\/less\/grid.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/less\/grid.less",
       "outputStyle" : 0,
@@ -26,10 +15,32 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
+    "\/dropplets\/style\/images\/branding.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/dropplets\/style\/images\/branding.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/dropplets\/style\/images\/branding.png",
+      "initialSize" : 3787,
+      "fileType" : 8192
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-sql.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-sql.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-sql-ck.js",
+      "fileType" : 64
+    },
     "\/archive\/_cache\/text-da49964cc249f8d33b0f38cad6bd186c.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_cache\/text-da49964cc249f8d33b0f38cad6bd186c.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -38,7 +49,7 @@
     "\/archive\/_theme_packages\/foundation\/assets\/themes\/foundation\/page.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/foundation\/assets\/themes\/foundation\/page.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -50,24 +61,44 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-144x144-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-144x144-precomposed.png",
       "initialSize" : 1475,
       "fileType" : 8192
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/ie-newline-copy-paste.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/ie-newline-copy-paste.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/archive\/_site\/assets\/themes\/foundation\/post.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/foundation\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/test_base.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/test_base.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/test_base-ck.js",
+      "fileType" : 64
+    },
     "\/archive\/_theme_packages\/foundation\/_includes\/themes\/foundation\/page.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/foundation\/_includes\/themes\/foundation\/page.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -79,7 +110,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/apple-touch-icon-144x144-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/apple-touch-icon-144x144-precomposed.png",
       "initialSize" : 1475,
       "fileType" : 8192
@@ -87,19 +118,28 @@
     "\/archive\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.responsive.2.3.1.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.responsive.2.3.1.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/prettify.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/prettify.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/apple-touch-icon-57x57-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
       "initialSize" : 730,
       "fileType" : 8192
@@ -107,7 +147,7 @@
     "\/templates\/midaym\/even_posts.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/even_posts.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -116,7 +156,7 @@
     "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/style.less" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/style.less",
       "outputStyle" : 0,
@@ -128,19 +168,19 @@
     },
     "\/apple-touch-icon-114x114-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
       "initialSize" : 1189,
       "fileType" : 8192
     },
     "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_base.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_base.less",
       "outputStyle" : 0,
@@ -153,18 +193,9 @@
     "\/dropplets\/config\/config-template.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/config\/config-template.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/archive\/_site\/archive.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_site\/archive.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -174,15 +205,24 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style\/images\/check.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/style\/images\/check.png",
       "initialSize" : 7469,
       "fileType" : 8192
     },
+    "\/archive\/_site\/archive.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_site\/archive.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/templates\/simple\/index.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/simple\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -194,7 +234,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png",
       "initialSize" : 12799,
       "fileType" : 8192
@@ -202,7 +242,7 @@
     "\/archive\/_site\/assets\/themes\/midaym\/js\/bootstrap.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/js\/bootstrap.min.js",
       "outputStyle" : 1,
@@ -213,7 +253,7 @@
     "\/archive\/_cache\/text-ffda142b4b84f2f03f0dca55d2584fdd.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_cache\/text-ffda142b4b84f2f03f0dca55d2584fdd.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -222,7 +262,7 @@
     "\/templates\/midaym\/odd_posts.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/odd_posts.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -234,15 +274,37 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/panels\/screenshot.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/panels\/screenshot.jpg",
       "initialSize" : 237067,
       "fileType" : 4096
     },
-    "\/archive\/assets\/themes\/midaym\/less\/grid.less" : {
-      "ignoreWasSetByUser" : 0,
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/recombineTagsAndDecorations.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/recombineTagsAndDecorations.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/recombineTagsAndDecorations-ck.js",
+      "fileType" : 64
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-lisp.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-lisp.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-lisp-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/assets\/themes\/midaym\/less\/grid.less" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/less\/grid.less",
       "outputStyle" : 0,
@@ -252,10 +314,21 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/tools\/closure-compiler\/amd-externs.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tools\/closure-compiler\/amd-externs.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tools\/closure-compiler\/amd-externs-ck.js",
+      "fileType" : 64
+    },
     "\/archive\/_cache\/text-b733b9d68693f70a58359392858e399a.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_cache\/text-b733b9d68693f70a58359392858e399a.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -264,7 +337,7 @@
     "\/settings.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/settings.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -276,15 +349,15 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/img\/bold-icons.jpeg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/midaym\/img\/bold-icons.jpeg",
       "initialSize" : 71263,
       "fileType" : 4096
     },
     "\/archive\/assets\/themes\/the-program\/css\/_less-base.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/css\/_less-base.less",
       "outputStyle" : 0,
@@ -297,7 +370,7 @@
     "\/archive\/assets\/themes\/twitter\/css\/style.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/css\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -309,7 +382,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/favicon.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/favicon.png",
       "initialSize" : 394,
       "fileType" : 8192
@@ -317,25 +390,25 @@
     "\/dropplets\/templates\/simple\/intro.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/simple\/intro.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/archive\/_theme_packages\/the-program\/_includes\/themes\/the-program\/default.html" : {
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/demo.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/_includes\/themes\/the-program\/default.html",
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/demo.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/templates\/midaym\/less\/utility.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/less\/utility.less",
       "outputStyle" : 0,
@@ -348,7 +421,7 @@
     "\/archive\/_cache\/text-1f158ca6066fe3986affdae9656ae622.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_cache\/text-1f158ca6066fe3986affdae9656ae622.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -360,15 +433,24 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/close.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/close.png",
       "initialSize" : 5791,
       "fileType" : 8192
     },
+    "\/archive\/_theme_packages\/the-program\/_includes\/themes\/the-program\/default.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/_includes\/themes\/the-program\/default.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/archive\/assets\/themes\/twitter\/page.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/page.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -380,7 +462,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style\/images\/mask.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/style\/images\/mask.png",
       "initialSize" : 45948,
       "fileType" : 8192
@@ -388,16 +470,127 @@
     "\/archive\/_theme_packages\/foundation\/assets\/themes\/foundation\/post.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/foundation\/assets\/themes\/foundation\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/archive\/assets\/themes\/the-program\/css\/_syntaxhighlighter.less" : {
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-rd.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-rd.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-rd-ck.js",
+      "fileType" : 64
+    },
+    "\/apple-touch-icon-144x144-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed.png",
+      "initialSize" : 1475,
+      "fileType" : 8192
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/prettify.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/prettify.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/prettify-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/_cache\/text-524cd2491f17a5ffc1d189e2196c75d8.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_cache\/text-524cd2491f17a5ffc1d189e2196c75d8.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-erlang.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-erlang.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-erlang-ck.js",
+      "fileType" : 64
+    },
+    "\/templates\/midaym\/img\/branding.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/img\/branding.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/img\/branding.png",
+      "initialSize" : 3787,
+      "fileType" : 8192
+    },
+    "\/templates\/panels\/404.php" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/panels\/404.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/archive\/_site\/assets\/themes\/midaym\/js\/bootstrap-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/js\/bootstrap-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_site\/assets\/themes\/midaym\/js\/bootstrap-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/style\/style.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/style\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/dropplets\/settings.php" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/dropplets\/settings.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/dropplets\/index.php" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/dropplets\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/archive\/assets\/themes\/the-program\/css\/_syntaxhighlighter.less" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/css\/_syntaxhighlighter.less",
       "outputStyle" : 0,
@@ -407,88 +600,10 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
-    "\/apple-touch-icon-144x144-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed.png",
-      "initialSize" : 1475,
-      "fileType" : 8192
-    },
-    "\/archive\/_cache\/text-524cd2491f17a5ffc1d189e2196c75d8.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_cache\/text-524cd2491f17a5ffc1d189e2196c75d8.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/templates\/midaym\/img\/branding.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/midaym\/img\/branding.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/midaym\/img\/branding.png",
-      "initialSize" : 3787,
-      "fileType" : 8192
-    },
-    "\/archive\/_site\/assets\/themes\/midaym\/js\/bootstrap-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/js\/bootstrap-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/assets\/themes\/midaym\/js\/bootstrap-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/templates\/panels\/404.php" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/panels\/404.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/dropplets\/settings.php" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/dropplets\/settings.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/dropplets\/index.php" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/dropplets\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/style\/style.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/style\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/config\/config-settings.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/config\/config-settings.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -497,7 +612,7 @@
     "\/templates\/simple\/post.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/simple\/post.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -505,11 +620,11 @@
     },
     "\/favicon.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/favicon.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/favicon.png",
       "initialSize" : 1444,
       "fileType" : 8192
@@ -517,7 +632,7 @@
     "\/archive\/_site\/assets\/themes\/midaym\/css\/main.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/css\/main.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -526,16 +641,47 @@
     "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/pygments-manni.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/pygments-manni.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/doxy.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/doxy.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-ml.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-ml.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-ml-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/_site\/apple-touch-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon.png",
+      "initialSize" : 730,
+      "fileType" : 8192
+    },
     "\/archive\/_includes\/themes\/the-program\/post.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/the-program\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -544,27 +690,16 @@
     "\/archive\/_site\/assets\/themes\/twitter\/post.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/archive\/_site\/apple-touch-icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon.png",
-      "initialSize" : 730,
-      "fileType" : 8192
-    },
     "\/templates\/panels\/posts.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/panels\/posts.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -573,7 +708,7 @@
     "\/archive\/_site\/assets\/themes\/midaym\/js\/vendor\/jquery-1.9.0.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/js\/vendor\/jquery-1.9.0.min.js",
       "outputStyle" : 1,
@@ -581,10 +716,19 @@
       "outputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/js\/vendor\/jquery-1.9.0.min-ck.js",
       "fileType" : 64
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/run_prettify_test.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/run_prettify_test.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/archive\/_cache\/text-70f8aa76c1207761e3f2352eea1c2853.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_cache\/text-70f8aa76c1207761e3f2352eea1c2853.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -596,7 +740,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/glyphicons-halflings-white.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/glyphicons-halflings-white.png",
       "initialSize" : 8777,
       "fileType" : 8192
@@ -604,47 +748,49 @@
     "\/templates\/midaym\/contact.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/contact.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/archive\/assets\/themes\/the-program\/css\/_base.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/css\/_base.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/css\/_base.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 3
-    },
-    "\/archive\/_includes\/themes\/midaym\/post.html" : {
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-xq.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/midaym\/post.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-xq.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-xq-ck.js",
+      "fileType" : 64
     },
-    "\/archive\/_site\/assets\/themes\/midaym\/css\/pygments-manni.css" : {
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/extractSourceSpans.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/css\/pygments-manni.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/extractSourceSpans.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/extractSourceSpans-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/assets\/themes\/midaym\/js\/bootstrap.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/bootstrap.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/bootstrap-ck.js",
+      "fileType" : 64
     },
     "\/archive\/assets\/themes\/midaym\/less\/base.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/less\/base.less",
       "outputStyle" : 0,
@@ -654,32 +800,70 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
+    "\/archive\/_includes\/themes\/midaym\/post.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/midaym\/post.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/archive\/_site\/assets\/themes\/midaym\/css\/pygments-manni.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/css\/pygments-manni.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/archive\/assets\/themes\/the-program\/css\/_base.less" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/css\/_base.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/css\/_base.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 3
+    },
     "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.responsive.2.3.1.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.responsive.2.3.1.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/archive\/assets\/themes\/midaym\/js\/bootstrap.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/bootstrap.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/bootstrap-ck.js",
-      "fileType" : 64
-    },
     "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/docs.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/docs.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/archive\/_includes\/themes\/twitter\/default.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/twitter\/default.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/archive\/_site\/assets\/themes\/twitter\/css\/main.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/css\/main.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -689,28 +873,10 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-57x57-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-57x57-precomposed.png",
       "initialSize" : 730,
       "fileType" : 8192
-    },
-    "\/archive\/_includes\/themes\/twitter\/default.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/twitter\/default.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/archive\/_site\/assets\/themes\/twitter\/css\/main.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/archive\/apple-touch-icon-57x57-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -718,7 +884,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/apple-touch-icon-57x57-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/apple-touch-icon-57x57-precomposed.png",
       "initialSize" : 730,
       "fileType" : 8192
@@ -726,7 +892,7 @@
     "\/archive\/assets\/themes\/the-program\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/css\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -735,7 +901,7 @@
     "\/archive\/_site\/Projects\/2013\/04\/15\/new-theme-project\/index.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/Projects\/2013\/04\/15\/new-theme-project\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -744,7 +910,7 @@
     "\/archive\/_site\/assets\/themes\/midaym\/js\/main.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/js\/main.js",
       "outputStyle" : 1,
@@ -755,11 +921,22 @@
     "\/archive\/_cache\/text-fa5578b606a99dfe6f543e4aed95190f.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_cache\/text-fa5578b606a99dfe6f543e4aed95190f.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-go.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-go.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-go-ck.js",
+      "fileType" : 64
     },
     "\/templates\/midaym\/img\/glyphicons-halflings-white.png" : {
       "ignoreWasSetByUser" : 0,
@@ -767,10 +944,28 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/img\/glyphicons-halflings-white.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/midaym\/img\/glyphicons-halflings-white.png",
       "initialSize" : 8777,
       "fileType" : 8192
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/archive\/_includes\/themes\/midaym\/default.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/midaym\/default.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/archive\/assets\/themes\/the-program\/skin\/100-90-5-monochrome.png" : {
       "ignoreWasSetByUser" : 0,
@@ -778,19 +973,10 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/skin\/100-90-5-monochrome.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/skin\/100-90-5-monochrome.png",
       "initialSize" : 22346,
       "fileType" : 8192
-    },
-    "\/archive\/_includes\/themes\/midaym\/default.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/midaym\/default.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/style\/images\/home.png" : {
       "ignoreWasSetByUser" : 0,
@@ -798,7 +984,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style\/images\/home.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/style\/images\/home.png",
       "initialSize" : 10612,
       "fileType" : 8192
@@ -806,7 +992,7 @@
     "\/dropplets\/dashboard\/publish.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/dashboard\/publish.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -815,16 +1001,27 @@
     "\/archive\/about.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/about.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-basic.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-basic.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-basic-ck.js",
+      "fileType" : 64
+    },
     "\/dropplets\/plugins\/markdown.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/plugins\/markdown.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -833,7 +1030,7 @@
     "\/templates\/midaym\/post.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/post.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -845,7 +1042,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style\/images\/arrow-previous.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/style\/images\/arrow-previous.png",
       "initialSize" : 5153,
       "fileType" : 8192
@@ -853,16 +1050,58 @@
     "\/dropplets\/templates\/panels\/intro.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/panels\/intro.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-r.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-r.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-r-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/_site\/apple-touch-icon-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-precomposed.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-precomposed.png",
+      "initialSize" : 730,
+      "fileType" : 8192
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-matlab.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-matlab.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-matlab-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/_includes\/themes\/foundation\/default.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/foundation\/default.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/archive\/_site\/assets\/themes\/midaym\/less\/main.less" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/less\/main.less",
       "outputStyle" : 0,
@@ -872,72 +1111,52 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
-    "\/archive\/_site\/apple-touch-icon-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-precomposed.png",
-      "initialSize" : 730,
-      "fileType" : 8192
-    },
-    "\/archive\/_includes\/themes\/foundation\/default.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/foundation\/default.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/plugins\/markdown.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/plugins\/markdown.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/archive\/assets\/themes\/twitter\/css\/main.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/css\/main.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/plugins\/markdown.php" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/plugins\/markdown.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/templates\/midaym\/404.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/404.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-proto.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-proto.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-proto-ck.js",
+      "fileType" : 64
+    },
     "\/templates\/simple\/404.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/simple\/404.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/style\/images\/templates.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/style\/images\/templates.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/style\/images\/templates.png",
-      "initialSize" : 10903,
-      "fileType" : 8192
     },
     "\/archive\/assets\/themes\/midaym\/img\/monster.jpeg" : {
       "ignoreWasSetByUser" : 0,
@@ -945,10 +1164,21 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/monster.jpeg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/monster.jpeg",
       "initialSize" : 22685,
       "fileType" : 4096
+    },
+    "\/style\/images\/templates.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/style\/images\/templates.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/style\/images\/templates.png",
+      "initialSize" : 10903,
+      "fileType" : 8192
     },
     "\/posts\/semantic-silver-mino.png" : {
       "ignoreWasSetByUser" : 0,
@@ -956,7 +1186,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/posts\/semantic-silver-mino.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/posts\/semantic-silver-mino.png",
       "initialSize" : 126311,
       "fileType" : 8192
@@ -967,7 +1197,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style\/images\/arrow-next.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/style\/images\/arrow-next.png",
       "initialSize" : 5004,
       "fileType" : 8192
@@ -978,7 +1208,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/glyphicons-halflings.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/glyphicons-halflings.png",
       "initialSize" : 12799,
       "fileType" : 8192
@@ -986,7 +1216,7 @@
     "\/dropplets\/templates\/simple\/style.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/simple\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -995,9 +1225,18 @@
     "\/archive\/assets\/themes\/twitter\/bootstrap\/css\/docs.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/bootstrap\/css\/docs.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/dropplets\/style\/style.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/dropplets\/style\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -1007,24 +1246,33 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-114x114-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-114x114-precomposed.png",
       "initialSize" : 1189,
       "fileType" : 8192
     },
-    "\/dropplets\/style\/style.css" : {
+    "\/archive\/_includes\/themes\/the-program\/page.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/dropplets\/style\/style.css",
+      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/the-program\/page.html",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
+    },
+    "\/templates\/simple\/intro.php" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/simple\/intro.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/archive\/_site\/assets\/themes\/midaym\/less\/utility.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/less\/utility.less",
       "outputStyle" : 0,
@@ -1034,32 +1282,23 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
-    "\/templates\/simple\/intro.php" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/simple\/intro.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/archive\/_includes\/themes\/the-program\/page.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/the-program\/page.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/plugins\/feedwriter.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/plugins\/feedwriter.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/desert.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/desert.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/dropplets\/style\/images\/arrow-previous.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1067,10 +1306,50 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/arrow-previous.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/arrow-previous.png",
       "initialSize" : 5153,
       "fileType" : 8192
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/prettify_test.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/prettify_test.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-css.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-css.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-css-ck.js",
+      "fileType" : 64
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-dart.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-dart.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-dart-ck.js",
+      "fileType" : 64
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/prettify_test_2.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/prettify_test_2.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/archive\/apple-touch-icon-114x114-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1078,15 +1357,35 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/apple-touch-icon-114x114-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/apple-touch-icon-114x114-precomposed.png",
       "initialSize" : 1189,
       "fileType" : 8192
     },
-    "\/archive\/assets\/themes\/the-program\/css\/_helper.less" : {
-      "ignoreWasSetByUser" : 0,
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/numberLines_test.html" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/numberLines_test.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-mumps.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-mumps.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-mumps-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/assets\/themes\/the-program\/css\/_helper.less" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/css\/_helper.less",
       "outputStyle" : 0,
@@ -1096,19 +1395,10 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
-    "\/dropplets\/templates\/panels\/post.php" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/dropplets\/templates\/panels\/post.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/archive\/assets\/themes\/the-program\/css\/style.less" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/css\/style.less",
       "outputStyle" : 0,
@@ -1124,15 +1414,35 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style\/images\/settings.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/style\/images\/settings.png",
       "initialSize" : 9058,
       "fileType" : 8192
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-wiki.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-wiki.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-wiki-ck.js",
+      "fileType" : 64
+    },
+    "\/dropplets\/templates\/panels\/post.php" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/dropplets\/templates\/panels\/post.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/config\/config-template.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/config\/config-template.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1144,7 +1454,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/panels\/screenshot.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/templates\/panels\/screenshot.jpg",
       "initialSize" : 237067,
       "fileType" : 4096
@@ -1155,15 +1465,15 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/apple-touch-icon-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/apple-touch-icon-precomposed.png",
       "initialSize" : 730,
       "fileType" : 8192
     },
     "\/templates\/midaym\/less\/variables.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/less\/variables.less",
       "outputStyle" : 0,
@@ -1179,15 +1489,15 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style\/images\/done.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/style\/images\/done.png",
       "initialSize" : 9270,
       "fileType" : 8192
     },
     "\/templates\/midaym\/less\/reset.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/less\/reset.less",
       "outputStyle" : 0,
@@ -1200,11 +1510,33 @@
     "\/templates\/panels\/index.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/panels\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-vb.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-vb.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-vb-ck.js",
+      "fileType" : 64
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-lua.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-lua.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-lua-ck.js",
+      "fileType" : 64
     },
     "\/dropplets\/style\/images\/mask.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1212,7 +1544,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/mask.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/mask.png",
       "initialSize" : 45948,
       "fileType" : 8192
@@ -1223,15 +1555,57 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/img\/iphones.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/midaym\/img\/iphones.png",
       "initialSize" : 285192,
       "fileType" : 8192
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-tex.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-tex.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-tex-ck.js",
+      "fileType" : 64
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/large_input_test.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/large_input_test.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-vhdl.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-vhdl.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-vhdl-ck.js",
+      "fileType" : 64
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-apollo.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-apollo.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-apollo-ck.js",
+      "fileType" : 64
+    },
     "\/dashboard\/script.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dashboard\/script.js",
       "outputStyle" : 1,
@@ -1242,7 +1616,7 @@
     "\/templates\/midaym\/js\/vendor\/modernizr-2.6.2.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/modernizr-2.6.2.min.js",
       "outputStyle" : 1,
@@ -1253,7 +1627,7 @@
     "\/archive\/_includes\/themes\/twitter\/post.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/twitter\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1262,7 +1636,7 @@
     "\/archive\/_site\/assets\/themes\/the-program\/css\/style.less" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/the-program\/css\/style.less",
       "outputStyle" : 0,
@@ -1278,7 +1652,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/done.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/done.png",
       "initialSize" : 9270,
       "fileType" : 8192
@@ -1286,16 +1660,25 @@
     "\/archive\/_site\/assets\/themes\/twitter\/css\/style.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/sunburst.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/sunburst.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
     "\/archive\/assets\/themes\/midaym\/js\/main.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/main.js",
       "outputStyle" : 1,
@@ -1306,16 +1689,16 @@
     "\/archive\/_theme_packages\/foundation\/_includes\/themes\/foundation\/post.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/foundation\/_includes\/themes\/foundation\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/archive\/_site\/assets\/themes\/midaym\/less\/reset.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/less\/reset.less",
       "outputStyle" : 0,
@@ -1328,16 +1711,27 @@
     "\/config\/submit-settings.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/config\/submit-settings.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/archive\/_site\/assets\/themes\/midaym\/less\/base.less" : {
-      "ignoreWasSetByUser" : 0,
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-yaml.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-yaml.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-yaml-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/_site\/assets\/themes\/midaym\/less\/base.less" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/less\/base.less",
       "outputStyle" : 0,
@@ -1350,11 +1744,31 @@
     "\/archive\/_site\/assets\/themes\/foundation\/default.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/foundation\/default.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/debug-ie-compat-matrix.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/debug-ie-compat-matrix.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-pascal.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-pascal.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-pascal-ck.js",
+      "fileType" : 64
     },
     "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1362,33 +1776,33 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png",
       "initialSize" : 8777,
       "fileType" : 8192
     },
-    "\/archive\/_includes\/themes\/foundation\/post.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/foundation\/post.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/dropplets\/templates\/simple\/posts.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/simple\/posts.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/archive\/_includes\/themes\/foundation\/post.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/foundation\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/archive\/_site\/assets\/themes\/midaym\/js\/bootstrap.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/js\/bootstrap.js",
       "outputStyle" : 1,
@@ -1399,7 +1813,7 @@
     "\/dropplets\/plugins\/feedwriter.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/plugins\/feedwriter.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1411,35 +1825,37 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/templates.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/templates.png",
       "initialSize" : 10903,
       "fileType" : 8192
     },
-    "\/dropplets\/templates\/panels\/style.css" : {
+    "\/templates\/midaym\/js\/vendor\/prettify.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/dropplets\/templates\/panels\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/prettify.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/prettify-ck.js",
+      "fileType" : 64
     },
     "\/archive\/_layouts\/page.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_layouts\/page.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/archive\/assets\/themes\/midaym\/css\/main.css" : {
-      "ignoreWasSetByUser" : 0,
+    "\/dropplets\/templates\/panels\/style.css" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/css\/main.css",
+      "inputAbbreviatedPath" : "\/dropplets\/templates\/panels\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -1449,10 +1865,19 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/apple-touch-icon.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/apple-touch-icon.png",
       "initialSize" : 730,
       "fileType" : 8192
+    },
+    "\/archive\/assets\/themes\/midaym\/css\/main.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/templates\/midaym\/img\/monster.jpeg" : {
       "ignoreWasSetByUser" : 0,
@@ -1460,15 +1885,26 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/img\/monster.jpeg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/midaym\/img\/monster.jpeg",
       "initialSize" : 22685,
       "fileType" : 4096
     },
-    "\/archive\/assets\/themes\/the-program\/css\/_module.less" : {
-      "ignoreWasSetByUser" : 0,
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/numberLines.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/numberLines.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/numberLines-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/assets\/themes\/the-program\/css\/_module.less" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/css\/_module.less",
       "outputStyle" : 0,
@@ -1484,7 +1920,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png",
       "initialSize" : 8777,
       "fileType" : 8192
@@ -1492,7 +1928,7 @@
     "\/archive\/_includes\/themes\/twitter\/page.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/twitter\/page.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1504,7 +1940,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/apple-touch-icon-72x72-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/apple-touch-icon-72x72-precomposed.png",
       "initialSize" : 854,
       "fileType" : 8192
@@ -1512,7 +1948,7 @@
     "\/dropplets\/templates\/simple\/subdiv.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/simple\/subdiv.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1521,7 +1957,7 @@
     "\/archive\/_site\/404.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/404.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1530,7 +1966,7 @@
     "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.2.3.1.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.2.3.1.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1539,9 +1975,18 @@
     "\/archive\/_cache\/text-f0bf6a9d3020acb8b19d186d1ef64eda.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_cache\/text-f0bf6a9d3020acb8b19d186d1ef64eda.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/dropplets\/templates\/simple\/index.php" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/dropplets\/templates\/simple\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1551,24 +1996,15 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/the-program\/skin\/100-90-5-monochrome.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/the-program\/skin\/100-90-5-monochrome.png",
       "initialSize" : 22346,
       "fileType" : 8192
     },
-    "\/dropplets\/templates\/simple\/index.php" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/dropplets\/templates\/simple\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/dropplets\/posts\/semantic-silver-mino.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/posts\/semantic-silver-mino.jpg",
       "processed" : 1,
@@ -1579,7 +2015,7 @@
     "\/templates\/midaym\/js\/vendor\/jquery-1.9.0.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/jquery-1.9.0.min.js",
       "outputStyle" : 1,
@@ -1590,11 +2026,33 @@
     "\/archive\/_theme_packages\/foundation\/assets\/themes\/foundation\/default.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/foundation\/assets\/themes\/foundation\/default.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/templates\/simple\/screenshot.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/simple\/screenshot.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/simple\/screenshot.jpg",
+      "initialSize" : 216067,
+      "fileType" : 4096
+    },
+    "\/apple-touch-icon-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
+      "initialSize" : 730,
+      "fileType" : 8192
     },
     "\/templates\/midaym\/css\/main.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1605,16 +2063,25 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/apple-touch-icon-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/tools\/closure-compiler\/console-externs.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
-      "initialSize" : 730,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tools\/closure-compiler\/console-externs.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tools\/closure-compiler\/console-externs-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/assets\/themes\/midaym\/css\/pygments-manni.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/css\/pygments-manni.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/archive\/_site\/assets\/themes\/midaym\/img\/glyphicons-halflings.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1622,53 +2089,44 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/glyphicons-halflings.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/glyphicons-halflings.png",
       "initialSize" : 12799,
       "fileType" : 8192
     },
-    "\/templates\/simple\/screenshot.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/simple\/screenshot.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/simple\/screenshot.jpg",
-      "initialSize" : 216067,
-      "fileType" : 4096
-    },
-    "\/archive\/assets\/themes\/midaym\/css\/pygments-manni.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/css\/pygments-manni.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/templates\/panels\/intro.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/panels\/intro.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-llvm.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-llvm.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-llvm-ck.js",
+      "fileType" : 64
+    },
     "\/archive\/assets\/themes\/twitter\/bootstrap\/css\/pygments-manni.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/bootstrap\/css\/pygments-manni.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
     "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_mediaqueries.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_mediaqueries.less",
       "outputStyle" : 0,
@@ -1684,7 +2142,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/bold-icons.jpeg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/bold-icons.jpeg",
       "initialSize" : 71263,
       "fileType" : 4096
@@ -1692,7 +2150,7 @@
     "\/archive\/assets\/themes\/midaym\/js\/bootstrap.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/bootstrap.min.js",
       "outputStyle" : 1,
@@ -1701,9 +2159,9 @@
       "fileType" : 64
     },
     "\/archive\/assets\/themes\/midaym\/less\/reset.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/less\/reset.less",
       "outputStyle" : 0,
@@ -1716,27 +2174,16 @@
     "\/archive\/assets\/themes\/twitter\/post.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/posts\/semantic-silver-mino.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/posts\/semantic-silver-mino.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/posts\/semantic-silver-mino.jpg",
-      "initialSize" : 69066,
-      "fileType" : 4096
-    },
     "\/archive\/_layouts\/default.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_layouts\/default.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1745,34 +2192,36 @@
     "\/archive\/_site\/assets\/themes\/the-program\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/the-program\/css\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/run_prettify.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/run_prettify.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/run_prettify-ck.js",
+      "fileType" : 64
+    },
     "\/templates\/panels\/post.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/panels\/post.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/dashboard\/index.php" : {
+    "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_helper.less" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/dashboard\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_helper.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_helper.less",
       "outputStyle" : 0,
@@ -1782,10 +2231,30 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
+    "\/dashboard\/index.php" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/dashboard\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-hs.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-hs.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-hs-ck.js",
+      "fileType" : 64
+    },
     "\/templates\/simple\/style.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/simple\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1794,22 +2263,11 @@
     "\/archive\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/archive\/assets\/themes\/midaym\/img\/branding.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/branding.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/branding.png",
-      "initialSize" : 3787,
-      "fileType" : 8192
     },
     "\/templates\/midaym\/less\/main.less" : {
       "ignoreWasSetByUser" : 0,
@@ -1827,16 +2285,27 @@
     "\/archive\/_site\/assets\/themes\/twitter\/page.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/page.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/archive\/assets\/themes\/midaym\/img\/branding.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/branding.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/branding.png",
+      "initialSize" : 3787,
+      "fileType" : 8192
+    },
     "\/archive\/assets\/themes\/midaym\/less\/main.less" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/less\/main.less",
       "outputStyle" : 0,
@@ -1852,7 +2321,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/glyphicons-halflings-white.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/glyphicons-halflings-white.png",
       "initialSize" : 8777,
       "fileType" : 8192
@@ -1860,7 +2329,7 @@
     "\/archive\/_site\/assets\/themes\/midaym\/js\/vendor\/modernizr-2.6.2.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/js\/vendor\/modernizr-2.6.2.min.js",
       "outputStyle" : 1,
@@ -1871,7 +2340,7 @@
     "\/archive\/404.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/404.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1880,7 +2349,7 @@
     "\/dropplets\/templates\/panels\/posts.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/panels\/posts.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1892,24 +2361,15 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style\/images\/logo.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/style\/images\/logo.png",
       "initialSize" : 26575,
       "fileType" : 8192
     },
-    "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.css" : {
+    "\/archive\/assets\/themes\/midaym\/less\/utility.less" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/archive\/assets\/themes\/midaym\/less\/utility.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/less\/utility.less",
       "outputStyle" : 0,
@@ -1919,10 +2379,19 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
+    "\/archive\/archive.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/archive.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/dropplets\/dashboard\/index.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/dashboard\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -1934,19 +2403,28 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/branding.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/branding.png",
       "initialSize" : 3787,
       "fileType" : 8192
     },
-    "\/archive\/archive.html" : {
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/test_styles.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/archive.html",
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/tests\/test_styles.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
+    },
+    "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/archive\/_site\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1954,15 +2432,15 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-72x72-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/apple-touch-icon-72x72-precomposed.png",
       "initialSize" : 854,
       "fileType" : 8192
     },
     "\/archive\/_site\/assets\/themes\/midaym\/less\/variables.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/less\/variables.less",
       "outputStyle" : 0,
@@ -1978,7 +2456,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png",
       "initialSize" : 12799,
       "fileType" : 8192
@@ -1989,15 +2467,15 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/img\/glyphicons-halflings.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/midaym\/img\/glyphicons-halflings.png",
       "initialSize" : 12799,
       "fileType" : 8192
     },
     "\/archive\/_site\/assets\/themes\/midaym\/less\/mixins.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/less\/mixins.less",
       "outputStyle" : 0,
@@ -2010,7 +2488,7 @@
     "\/archive\/_cache\/text-c18f93fcd830ea01a890cae929de7294.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_cache\/text-c18f93fcd830ea01a890cae929de7294.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2019,7 +2497,7 @@
     "\/config\/submit-template.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/config\/submit-template.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2028,7 +2506,7 @@
     "\/archive\/_cache\/text-abe1882d59db2cab4d18cadc4ec311dc.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_cache\/text-abe1882d59db2cab4d18cadc4ec311dc.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2037,11 +2515,31 @@
     "\/templates\/midaym\/footer.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/footer.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/README.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/README.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-scala.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-scala.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-scala-ck.js",
+      "fileType" : 64
     },
     "\/dropplets\/style\/images\/logout.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2049,7 +2547,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/logout.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/logout.png",
       "initialSize" : 9708,
       "fileType" : 8192
@@ -2057,7 +2555,7 @@
     "\/archive\/_site\/index.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2066,7 +2564,7 @@
     "\/archive\/assets\/themes\/foundation\/default.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/foundation\/default.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2075,25 +2573,16 @@
     "\/dropplets\/templates\/panels\/index.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/panels\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/archive\/test.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/test.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/dropplets\/templates\/panels\/404.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/panels\/404.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2105,15 +2594,15 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/logo.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/logo.png",
       "initialSize" : 26575,
       "fileType" : 8192
     },
     "\/templates\/midaym\/less\/ui.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/less\/ui.less",
       "outputStyle" : 0,
@@ -2123,10 +2612,19 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
+    "\/archive\/test.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/test.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/archive\/_site\/about.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/about.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2135,7 +2633,7 @@
     "\/dropplets\/dashboard\/script.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/dashboard\/script.js",
       "outputStyle" : 1,
@@ -2146,25 +2644,16 @@
     "\/dropplets\/config\/submit-settings.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/config\/submit-settings.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/archive\/_includes\/themes\/midaym\/page.html" : {
+    "\/archive\/assets\/themes\/midaym\/less\/variables.less" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/midaym\/page.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/archive\/assets\/themes\/midaym\/less\/variables.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/less\/variables.less",
       "outputStyle" : 0,
@@ -2174,10 +2663,30 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/externs.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/externs.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/externs-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/_includes\/themes\/midaym\/page.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/midaym\/page.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/dropplets\/templates\/simple\/post.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/simple\/post.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2189,15 +2698,26 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/monster.jpeg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/monster.jpeg",
       "initialSize" : 22685,
       "fileType" : 4096
     },
-    "\/archive\/assets\/themes\/midaym\/less\/ui.less" : {
+    "\/posts\/style-the-guidelines.jpg" : {
       "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/posts\/style-the-guidelines.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/posts\/style-the-guidelines.jpg",
+      "initialSize" : 76396,
+      "fileType" : 4096
+    },
+    "\/archive\/assets\/themes\/midaym\/less\/ui.less" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/less\/ui.less",
       "outputStyle" : 0,
@@ -2207,10 +2727,21 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/prettify.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/prettify.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/prettify-ck.js",
+      "fileType" : 64
+    },
     "\/archive\/_layouts\/post.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_layouts\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2219,7 +2750,7 @@
     "\/archive\/assets\/themes\/midaym\/js\/vendor\/jquery-1.9.0.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/vendor\/jquery-1.9.0.min.js",
       "outputStyle" : 1,
@@ -2230,7 +2761,7 @@
     "\/archive\/_site\/assets\/themes\/midaym\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/js\/plugins.js",
       "outputStyle" : 1,
@@ -2238,10 +2769,19 @@
       "outputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/js\/plugins-ck.js",
       "fileType" : 64
     },
-    "\/archive\/_site\/assets\/themes\/midaym\/less\/ui.less" : {
-      "ignoreWasSetByUser" : 0,
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/recombineTagsAndDecorations_test.html" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/recombineTagsAndDecorations_test.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/archive\/_site\/assets\/themes\/midaym\/less\/ui.less" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/less\/ui.less",
       "outputStyle" : 0,
@@ -2257,7 +2797,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/iphones.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/midaym\/img\/iphones.png",
       "initialSize" : 285192,
       "fileType" : 8192
@@ -2268,7 +2808,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style\/images\/close.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/style\/images\/close.png",
       "initialSize" : 5791,
       "fileType" : 8192
@@ -2276,7 +2816,7 @@
     "\/archive\/assets\/themes\/midaym\/js\/vendor\/modernizr-2.6.2.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/vendor\/modernizr-2.6.2.min.js",
       "outputStyle" : 1,
@@ -2284,10 +2824,19 @@
       "outputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/vendor\/modernizr-2.6.2.min-ck.js",
       "fileType" : 64
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/CHANGES.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/CHANGES.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/archive\/_includes\/themes\/the-program\/default.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/the-program\/default.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2296,16 +2845,16 @@
     "\/archive\/_theme_packages\/the-program\/_includes\/themes\/the-program\/post.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/_includes\/themes\/the-program\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/archive\/assets\/themes\/midaym\/less\/mixins.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/less\/mixins.less",
       "outputStyle" : 0,
@@ -2315,28 +2864,39 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
-    "\/templates\/simple\/subdiv.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/simple\/subdiv.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/templates\/midaym\/index.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/run_prettify.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/run_prettify.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/run_prettify-ck.js",
+      "fileType" : 64
+    },
+    "\/templates\/simple\/subdiv.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/simple\/subdiv.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/dropplets\/posts\/index.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/posts\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2348,7 +2908,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/home.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/home.png",
       "initialSize" : 10612,
       "fileType" : 8192
@@ -2359,7 +2919,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/check.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/check.png",
       "initialSize" : 7469,
       "fileType" : 8192
@@ -2367,7 +2927,7 @@
     "\/archive\/_cache\/text-2499bdf6de496910320bd406a6e4b3d1.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_cache\/text-2499bdf6de496910320bd406a6e4b3d1.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2376,7 +2936,7 @@
     "\/archive\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.2.3.1.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.2.3.1.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2388,7 +2948,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/skin\/100-90-5-monochrome.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/skin\/100-90-5-monochrome.png",
       "initialSize" : 22346,
       "fileType" : 8192
@@ -2396,7 +2956,7 @@
     "\/templates\/midaym\/js\/main.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/js\/main.js",
       "outputStyle" : 1,
@@ -2407,7 +2967,7 @@
     "\/archive\/_includes\/themes\/foundation\/page.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_includes\/themes\/foundation\/page.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2416,7 +2976,7 @@
     "\/archive\/_theme_packages\/foundation\/_includes\/themes\/foundation\/default.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/foundation\/_includes\/themes\/foundation\/default.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2425,16 +2985,16 @@
     "\/templates\/midaym\/about.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/about.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_module.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_module.less",
       "outputStyle" : 0,
@@ -2447,7 +3007,7 @@
     "\/dropplets\/config\/submit-template.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/config\/submit-template.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2456,16 +3016,16 @@
     "\/posts\/index.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/posts\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/archive\/assets\/themes\/the-program\/css\/_mediaqueries.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/the-program\/css\/_mediaqueries.less",
       "outputStyle" : 0,
@@ -2475,10 +3035,21 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
+    "\/posts\/new-themeing-project.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/posts\/new-themeing-project.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/posts\/new-themeing-project.jpg",
+      "initialSize" : 19476,
+      "fileType" : 4096
+    },
     "\/templates\/panels\/style.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/panels\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2487,7 +3058,7 @@
     "\/archive\/_theme_packages\/the-program\/_includes\/themes\/the-program\/page.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/_includes\/themes\/the-program\/page.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2496,7 +3067,7 @@
     "\/archive\/assets\/themes\/foundation\/post.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/foundation\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2505,7 +3076,7 @@
     "\/archive\/_site\/test.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/test.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2514,7 +3085,7 @@
     "\/templates\/midaym\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/js\/plugins.js",
       "outputStyle" : 1,
@@ -2525,7 +3096,7 @@
     "\/index.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2533,19 +3104,19 @@
     },
     "\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/apple-touch-icon-72x72-precomposed.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/apple-touch-icon-72x72-precomposed.png",
       "initialSize" : 854,
       "fileType" : 8192
     },
     "\/templates\/midaym\/less\/grid.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/less\/grid.less",
       "outputStyle" : 0,
@@ -2555,13 +3126,22 @@
       "fileType" : 1,
       "debugStyle" : 3
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/extractSourceSpans_test.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/extractSourceSpans_test.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/dropplets\/templates\/simple\/screenshot.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/simple\/screenshot.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/templates\/simple\/screenshot.jpg",
       "initialSize" : 216067,
       "fileType" : 4096
@@ -2572,24 +3152,35 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/settings.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/settings.png",
       "initialSize" : 9058,
       "fileType" : 8192
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-tcl.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-tcl.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-tcl-ck.js",
+      "fileType" : 64
+    },
     "\/dropplets\/config\/config-settings.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/config\/config-settings.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_syntaxhighlighter.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_syntaxhighlighter.less",
       "outputStyle" : 0,
@@ -2600,9 +3191,9 @@
       "debugStyle" : 3
     },
     "\/templates\/midaym\/less\/base.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/less\/base.less",
       "outputStyle" : 0,
@@ -2615,7 +3206,7 @@
     "\/templates\/simple\/posts.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/simple\/posts.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2627,7 +3218,7 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/iphones.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/iphones.png",
       "initialSize" : 285192,
       "fileType" : 8192
@@ -2635,7 +3226,7 @@
     "\/archive\/assets\/themes\/midaym\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/plugins.js",
       "outputStyle" : 1,
@@ -2643,10 +3234,21 @@
       "outputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/plugins-ck.js",
       "fileType" : 64
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/combinePrefixPatterns.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/combinePrefixPatterns.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/js-modules\/combinePrefixPatterns-ck.js",
+      "fileType" : 64
+    },
     "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2655,7 +3257,7 @@
     "\/archive\/index.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2667,15 +3269,37 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/style\/images\/arrow-next.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/dropplets\/style\/images\/arrow-next.png",
       "initialSize" : 5004,
       "fileType" : 8192
     },
-    "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_less-base.less" : {
+    "\/style\/images\/logout.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/style\/images\/logout.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/style\/images\/logout.png",
+      "initialSize" : 9708,
+      "fileType" : 8192
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-n.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-n.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-n-ck.js",
+      "fileType" : 64
+    },
+    "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_less-base.less" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_theme_packages\/the-program\/assets\/themes\/the-program\/css\/_less-base.less",
       "outputStyle" : 0,
@@ -2688,7 +3312,7 @@
     "\/dashboard\/publish.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dashboard\/publish.php",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2700,26 +3324,15 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/bold-icons.jpeg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/img\/bold-icons.jpeg",
       "initialSize" : 71263,
       "fileType" : 4096
     },
-    "\/style\/images\/logout.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/style\/images\/logout.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/style\/images\/logout.png",
-      "initialSize" : 9708,
-      "fileType" : 8192
-    },
     "\/archive\/assets\/themes\/midaym\/js\/bootstrap-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/midaym\/js\/bootstrap-ck.js",
       "outputStyle" : 1,
@@ -2730,7 +3343,7 @@
     "\/archive\/assets\/themes\/foundation\/page.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/assets\/themes\/foundation\/page.html",
       "outputAbbreviatedPath" : "No Output Path",
@@ -2739,34 +3352,54 @@
     "\/templates\/midaym\/intro.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/intro.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/sons-of-obsidian.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/styles\/sons-of-obsidian.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/dropplets\/templates\/simple\/404.php" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/dropplets\/templates\/simple\/404.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-clj.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-clj.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/src\/lang-clj-ck.js",
+      "fileType" : 64
+    },
     "\/archive\/_site\/assets\/themes\/foundation\/page.html" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archive\/_site\/assets\/themes\/foundation\/page.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/templates\/midaym\/less\/mixins.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/midaym\/less\/mixins.less",
       "outputStyle" : 0,
@@ -2782,10 +3415,19 @@
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style\/images\/favicon.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/style\/images\/favicon.png",
       "initialSize" : 394,
       "fileType" : 8192
+    },
+    "\/templates\/midaym\/js\/vendor\/code-prettify\/examples\/quine.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/midaym\/js\/vendor\/code-prettify\/examples\/quine.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     }
   },
   "manualImportLinks" : [

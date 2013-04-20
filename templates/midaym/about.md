@@ -1,18 +1,3 @@
-The Personal Blog of Michael Miday a Front-End Specialist. Follow along as I discuss topics and projects covering the scope of all things Web Design & Development related. I cover topics in HTML, [HTML5, CSS, CSS3, Design, PHP, Javascript, jQuery, PHPBB, Laravel, Less, Git, Photoshop & More...
-
-
-The Playground
-
-My name is Mike Miday <br/> Designer, Developer &amp; Front-End Creative Master
-
-About Me
-
-The Creativity Behind The Curtains</br>Pay No Attention To The Man Behind Their!
-
-Reach Out
-
-Need to get in touch with me. </br>Maybe you just want to know more about me.
-
 ### Who Am I
 I am a Front-End Web Designer & Developer. I live on the road, coding & designing amazing things for the web. O and ocassionally I stop what I am working on to write & share on this blog.
 

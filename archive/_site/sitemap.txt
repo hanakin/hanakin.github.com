@@ -1,9 +1,0 @@
-
-http://hanakin.github.io/about.html
-http://hanakin.github.io/archive.html
-http://hanakin.github.io/atom.xml
-http://hanakin.github.io/index.html
-http://hanakin.github.io/rss.xml
-http://hanakin.github.io/sitemap.txt
-
-http://hanakin.github.io/Projects/2013/04/15/new-theme-project

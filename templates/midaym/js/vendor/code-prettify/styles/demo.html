@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html><head>
+<script src="../src/prettify.js"></script>
+<script src="../../../../css/main.css"></script>
+<style>
+body { margin: 0; padding: 0 }
+pre { margin: 0 }
+</style>
+</head>
+<body onload="prettyPrint(); adjustHeightInParent()">
+<div style="width: 100em; display: inline-block; margin:80px">
+<pre class="prettyprint">
+&lt;!DOCTYPE html&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="span3"&gt;
+			&lt;a class="branding" href="{{ HOME_PATH }}"&gt;&lt;img src="{{ ASSET_PATH }}/img/branding.png" width="48px" height="48px"&gt;midaym&lt;/a&gt;
+		&lt;/div&gt;
+		&lt;div class="span9"&gt;
+			&lt;nav class="pull-right"&gt;
+				&lt;ul&gt;
+</pre>
+<pre class="prettyprint">
+	/* Primary Structure */
+	header { 
+	    padding: @spacer*2 0;
+	    .branding { 
+	        .block();
+	        width: 230px;
+	        font-family: 'midaym';
+	        margin-top: @spacer*-1;
+	        font-size: @baseLineHeight*2;
+	        color: @black;
+	        letter-spacing: -@spacer*0.2;
+	        img { 
+	            margin-bottom: -@spacer*0.2;
+	            padding-right: @spacer*0.4;
+	        }
+	    }
+	    nav a.pill-dark { margin-top: -@spacer*0.2; }
+	    hgroup { margin-top: @spacer*2; }    
+	}
+</pre>
+</div>
+</body></html>

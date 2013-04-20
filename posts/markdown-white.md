@@ -95,7 +95,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quas, eos, quas
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, ut, modi, repudiandae dolor eveniet dignissimos distinctio nam perferendis blanditiis possimus commodi vel repellat officia illo cumque consectetur reprehenderit optio numquam.
 
 ### Code Block
-
+	<!DOCTYPE html>
 	<div class="row">
 		<div class="span3">
 			<a class="branding" href="{{ HOME_PATH }}"><img src="{{ ASSET_PATH }}/img/branding.png" width="48px" height="48px">midaym</a>
@@ -103,6 +103,26 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quas, eos, quas
 		<div class="span9">
 			<nav class="pull-right">
 				<ul>
+
+	/* Primary Structure */
+	header { 
+	    padding: @spacer*2 0;
+	    .branding { 
+	        .block();
+	        width: 230px;
+	        font-family: 'midaym';
+	        margin-top: @spacer*-1;
+	        font-size: @baseLineHeight*2;
+	        color: @black;
+	        letter-spacing: -@spacer*0.2;
+	        img { 
+	            margin-bottom: -@spacer*0.2;
+	            padding-right: @spacer*0.4;
+	        }
+	    }
+	    nav a.pill-dark { margin-top: -@spacer*0.2; }
+	    hgroup { margin-top: @spacer*2; }    
+	}
 ### HRs
 
 ************
