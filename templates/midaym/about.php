@@ -5,7 +5,7 @@
 	                    <?php echo $post; ?>
 	            	</article>
 	            	<aside class="span3 offset1">
-	                	<img src="<?php echo $template_dir_url ?>/img/about.png" alt="midaym.com | About" />
+	                	<img src="<?php echo $template_dir_url ?>/img/about.jpg" alt="midaym.com | About" />
 	            	</aside>
 	            </div>
 	        </div>
