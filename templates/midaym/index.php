@@ -12,11 +12,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
         <link rel="stylesheet" href="<?php echo $template_dir_url ?>css/main.css">
-        
-        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
-        
-        <link rel="shortcut icon" href="../favicon.png">
+                
+        <link rel="shortcut icon" href="<?php echo $template_dir_url ?>favicon.png">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 

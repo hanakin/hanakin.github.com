@@ -1,7 +1,7 @@
 		<section class="contact">
             <div class="container">
                 <div class="row">
-                    <article class="span6">
+                    <article class="span8">
                         <hgroup>
                             <h2>
                                 Contact Form
@@ -30,8 +30,12 @@
                             </fieldset>
                         </form>
                 </article>
-                <aside class="span6">
-                    <img  class="featured" src="./img/iphones.png" alt="article image" />
+                <aside class="span3 offset1">
+                    <img src="<?php echo $template_dir_url ?>img/branding2.png" alt="midaym.com | Contact Me" />                    
+	                <ul>
+	                	<li><!-- <i class=""></i> --><strong>Email: </strong><a href="mailto:midaym@gmail.com">midaym@gmail.com</a></li>
+	                	<li><!-- <i class=""></i> --><strong>Skype: </strong>mmiday</li>
+	                </ul>
                 </aside>
                 </div>
             </div>

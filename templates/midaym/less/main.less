@@ -95,14 +95,23 @@ blockquote {
 	blockquote { padding-bottom: @spacer; }
 }
 
-article a {
-	color: @secondaryLinkColor;
-	font-weight: 700;
-	&:hover { color: @white; }
+article {
+	a {
+		color: @secondaryLinkColor;
+		font-weight: 700;
+		&:hover { color: @white; }
+	}
+	tbody {
+	    tr:hover td,
+	    tr:hover th {
+	        .bg(@tableBackgroundAccent);
+	    }
+	}
 }
 
-/* Prettify CSS - its here because I hate not being able to use less vars..... */
+aside ul { .no-bullets(); }
 
+/* Prettify CSS - its here because I hate not being able to use less vars..... */
 code {
 	.border-radius(3px);
 	border: solid @spacer*0.05 lighten(@red,30%);

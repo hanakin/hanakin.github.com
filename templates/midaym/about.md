@@ -7,28 +7,39 @@ I specialize in the creation of the Front-End of Web Development. The look, Feel
 I also have apassion for the Back-End Development utilizing [PHP][6]. This site is actually being served to you by a [PHP][6] app called [Dropplets][1] which I modified to suit my needs. This allows me to easily upload Markdown files for all my posts thus eliviating all the mus & fus of a traditional Blog applications such as [Wordpress][2].
 
 ### My Webary & Creative Arsenal
-*	[HTML][3]
-*	[HTML5][3]
-*	[CSS][4]
-*	[CSS3][4]
-*	[PHP][6]
-*	[Javascript][7]
-*	[jQuery][5]
-*	[PHPBB][8]
-*	[Laravel][10]
-*	[Less][9]
-*	[Git][11]
-*	[Wordpress][2]
-*	[Illustrator][12]
-*	[Photoshop][13]
-*	[After Effects][14]
-*	[Premiere][15]
-*	[Bootstrap][16]
-*	[Jeet][17]
-*	[Sublime Text][18]
-*	[MYSQL][19]
-*	[MAC][20]
-
+<table>
+	<tr>
+		<td>
+			<ul>
+				<li>[HTML][3]</li>
+				<li>[HTML5][3]</li>
+				<li>[CSS][4]</li>
+				<li>[CSS3][4]</li>
+				<li>[Less][9]</li>
+				<li>[Bootstrap][16]</li>
+				<li>[Javascript][7]</li>
+				<li>[jQuery][5] </li>
+				<li>[MYSQL][19]</li>
+				<li>[PHP][6]</li>
+				<li>[Laravel][10]</li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li>[PHPBB][8]</li>
+				<li>[Wordpress][2]</li>
+				<li>[Git][11]</li>
+				<li>[Photoshop][13]</li>
+				<li>[Illustrator][12] </li>
+				<li>[After Effects][14]</li>
+				<li>[Premiere][15]</li>
+				<li>[Sublime Text][18]</li>
+				<li>[MAC][20]</li>
+			</ul>
+		</td>
+	</tr>
+</table>
+ 				
 [1]: https://github.com/circa75/dropplets
 [2]: http://wordpress.org/
 [3]: http://www.w3.org/html/logo/index.html
