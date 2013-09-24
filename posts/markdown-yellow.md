@@ -4,7 +4,7 @@
 - 2013/19/04
 - Projects
 - yellow
-- published
+- draft
 
 This is a post to setup the css to render all the elements of mark down properly
 

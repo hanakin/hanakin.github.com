@@ -8,7 +8,7 @@ $intro_title = "The Playground";
 $intro_tag = "My name is Mike Miday <br/> Designer, Developer &amp; Front-End Creative Master
 ";
 $about_title = "About Me";
-$about_tag = "The Creativity Behind The Curtains</br>Pay No Attention To The Man Behind Their!";
+$about_tag = "The Creativity Behind The Curtains</br>Pay No Attention To The Machine Back Their!";
 $contact_title = "Reach Out";
 $contact_tag = "Need to get in touch with me. </br>Maybe you just want to know more about me.";
 $password = 'pumpupthevolume';

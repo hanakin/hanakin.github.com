@@ -7,6 +7,7 @@
 						<?php } ?>
 		            </aside>
 	                <article class="span7 offset1">
+	                	<p class="date"><?php echo $published_date ?></p>
 	                    <hgroup>
 	                        <h2><?php echo $post_title ?></h2>
 	                    </hgroup>

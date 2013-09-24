@@ -3,7 +3,7 @@
 	              <div class="row">
 	                <div class="span5">
 	                    <p class="copyright">
-	                        <i class="icon-cc"></i> Copyright 2013 <a href="#"><strong><i class="icon-midaym"></i>MIDAYM</strong></a>. <span class="desk">All Right Reserved.</span>
+	                        &copy; Copyright 2013 <a href="#"><strong><i class="icon-midaym"></i>MIDAYM</strong></a>. <span class="desk">All Right Reserved.</span>
 	                    </p>
 	                    <ul class="social">
 	                        <li><a class="hide-text"href="http://www.flickr.com/photos/midaym/" title="Flickr"><i class="icon-flickr"></i></a></li>

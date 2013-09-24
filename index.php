@@ -24,7 +24,7 @@ include('./config/config-template.php');
 // A few definitions.
 $language = 'en-us';
 $feed_max_items = '10';
-$date_format = 'F jS, Y';
+$date_format = 'M d, Y';
 $error_title = 'Sorry, But That&#8217;s Not Here';
 $error_text = 'Really sorry, but what you&#8217;re looking for isn&#8217;t here. Click the button below to find something else that might interest you.';
 

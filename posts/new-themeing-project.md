@@ -1,7 +1,7 @@
 # New Themeing Project<small>Push to reinvigorate my creativity!</small>
 - Michael Miday
 - midaym
-- 2013/19/04
+- 2013-04-16
 - Projects
 - red
 - published
@@ -26,24 +26,24 @@ The end state is to establish a worklow for my self since its been a long time s
 #### The Weapons
 To accomplish this project I am going to be ading alot of new things to my arsenal of Webary.
 
+*	[HTML5 & CSS3][1] - Not new just new to the app
+*	[HTML5Boilerplate][8] - Not and not fully being used here
 *	[Normalize.css][3] - Not really adding but its their
-*	[Stylus][4] - I am a less user so this is a little different to me but the frame work I want to attempt to use requires it.
-*	[nib][5] - accompanies stylus
-*	[JEET][6] - The frame work that I will be leveraging
+*	[SMACSS][5] - We need some sense of order to a project like this
+*	[LESS][4] - I am a less user so this is what I will be using.
+*	[Bootstrap 3.0][4] - Utlizing core functionality and some core components as well as the grid and responsive features.
 *	[Sublime Text 2][7] - Not new but several plugins are
 *	[emmet][10] - One of the new plugins I wish to start utilizing regularly
-*	[Adobe CS6][9] - Newly upgraded from CS4
+*	[Adobe CC][9] - Newly upgraded from CS4
 *	[GiT][12] - Not new but never truley leveraged its potential properly
 *	[GitHub][8] - Interface for GiT
-*	[HTML5Boilerplate][8] - Not and not fully being used here
-*	[HTML5 & CSS3][1] - Not new just new to the app
-*	[Bootstrap 3.0][11] - Not really using this other than referencing it for some insight, but considering using it... over Jeet as it is less based and recently discovered that its has nearly all the fetures minus one big one which requires stylus or sass over less to accomplish
 
 be sure to look out for the reset of the posts in this series listed below. I will link theses once their posted
 
 #### Articles in This Series Series
 *	[In the Begining][artice1] 
 *	[Style the Guidelines [Design Creation]][article2]
+*	[Frameing Mino][article3]
 *	Rapid Prototyping [XHTML Prototyping]
 *	The Flavour 
 *	Tweak & Polish 
@@ -55,18 +55,18 @@ be sure to look out for the reset of the posts in this series listed below. I wi
 
 [artice1]: http://www.midaym.com/new-themeing-project
 [article2]: http://www.midaym.com/style-the-guidelines
+[article3]: http://www.midaym.com/frameing-mino
 
-[1]: http://www.w3.org/html/logo/       "HTML5 & CSS3"
-[2]: http://html5boilerplate.com/  "HTML5BoilerPlate"
-[3]: http://necolas.github.io/normalize.css/   "Normalize.css"
-[4]: http://learnboost.github.io/stylus/        "Stylus"
-[5]: http://visionmedia.github.io/nib/  "nib"
-[6]: http://jeetframework.com/    "JEET"
-[7]: http://www.sublimetext.com/        "Sublime2"
-[8]: http://www.github.com/  "GitHub"
-[9]: http://adobe.com/   "Adobe CS6"
-[10]: https://github.com/sergeche/emmet-sublime   "emmet"
+[1]: http://www.w3.org/html/logo/       					"HTML5 & CSS3"
+[2]: http://html5boilerplate.com/  							"HTML5BoilerPlate"
+[3]: http://necolas.github.io/normalize.css/   				"Normalize.css"
+[4]: http://lesscss.org/        							"LESS"
+[5]: http://smacss.com/ 									"SMACSS"
+[7]: http://www.sublimetext.com/        					"Sublime2"
+[8]: http://www.github.com/  								"GitHub"
+[9]: http://adobe.com/   									"Adobe CC"
+[10]: https://github.com/sergeche/emmet-sublime   			"emmet"
 [11]: https://github.com/twitter/bootstrap/tree/3.0.0-wip   "Bootstrap 3.0"
-[12]: http://git-scm.com/   "GiT"
+[12]: http://git-scm.com/  									"GiT"
 
 

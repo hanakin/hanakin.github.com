@@ -1,4 +1,4 @@
-<section class="single <?php echo $post_class ?>">
+<section class="single">
     <div class="container">
 	    <div class="row">
 	    	<article class="span7">
@@ -8,10 +8,7 @@
 	        	<?php echo $post ?>
 		    </article>
             <aside class="span4 offset1">
-            	<?php if($post_image) { ?>
-		        	<img class="featured" src="<?php echo $post_image ?>" alt="<?php echo $post_title ?>" />
-				<?php } ?>
-		        </br>
+            	<span class="date"><?php echo $published_date ?></span>
 		        <a class="pill-light" href="https://twitter.com/intent/tweet?screen_name=<?php echo $post_author_twitter ?>&text=Re:%20<?php echo $post_link ?>%20" data-dnt="true">Comment on Twitter</a>
 		    	</br>
 	            <a class="pill-light" href="https://twitter.com/intent/tweet?text=&quot;<?php echo $post_title ?>&quot;%20<?php echo $post_link ?>%20via%20&#64;<?php echo $post_author_twitter ?>" data-dnt="true">Share on Twitter</a>

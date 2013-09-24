@@ -1,7 +1,8 @@
 		<section class="<?php echo $post_class." ".$post_status; ?>">
 	        <div class="container">
 	            <div class="row">
-	                <article class="span7">
+	                <article class="span7 odd">
+	                	<p class="date"><?php echo $published_date ?></p>
 	                    <hgroup>
 	                        <h2><?php echo $post_title ?></h2>
 	                    </hgroup>

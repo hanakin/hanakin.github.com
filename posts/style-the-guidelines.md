@@ -1,7 +1,7 @@
 # Style the Guidelines <small>[Project Mino]</small>
 - Michael Miday
 - midaym
-- 2013/21/04
+- 2013-04-21
 - Project
 - black
 - published
@@ -32,6 +32,7 @@ I am nearing the final stages of the Mock-up just a few more minor elements to t
 #### Articles in This Series Series
 *	[In the Begining][artice1] 
 *	[Style the Guidelines [Design Creation]][article2]
+*	[Frameing Mino][article3]
 *	Rapid Prototyping [XHTML Prototyping]
 *	The Flavour 
 *	Tweak & Polish 
@@ -43,6 +44,7 @@ I am nearing the final stages of the Mock-up just a few more minor elements to t
 
 [artice1]: http://www.midaym.com/new-themeing-project
 [article2]: http://www.midaym.com/style-the-guidelines
+[article3]: http://www.midaym.com/frameing-mino
 
 
 
